@@ -1,14 +1,12 @@
 import React from "react";
+import GardenCanvas from "@/components/GardenCanvas";
 
 
 export default function Garden(this: any) {
 
-
-
   return (
     <div>
-      <h1>This is the garden</h1>
- 
+      <GardenCanvas />
     </div>
   );
 }
